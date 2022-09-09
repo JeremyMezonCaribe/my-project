@@ -7,10 +7,12 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "generate": "strapi generate",
     "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
+    "@strapi/plugin-graphql": "^4.3.8",
     "@strapi/plugin-i18n": "4.3.6",
     "@strapi/plugin-users-permissions": "4.3.6",
     "@strapi/strapi": "4.3.6",
